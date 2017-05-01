@@ -1,7 +1,7 @@
 {
-  "name": "klcc-resume",
+  "name": "koa-pug-starter-kit",
   "version": "1.0.0",
-  "description": "坤倫人事系統",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"

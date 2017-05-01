@@ -1,1 +1,1 @@
-# koa-pug-starter-kit
+# Koa + Pug 起手式
