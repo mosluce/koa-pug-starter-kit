@@ -1,0 +1,23 @@
+{
+  "name": "klcc-resume",
+  "version": "1.0.0",
+  "description": "坤倫人事系統",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "mosluce<mosluce@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-logger": "^2.0.1",
+    "koa-router": "next",
+    "koa-static": "^3.0.0",
+    "koa-views": "^6.0.2",
+    "mysql": "^2.13.0",
+    "pug": "^2.0.0-beta.12",
+    "sequelize": "^3.30.4",
+    "sqlite3": "^3.1.8"
+  }
+}
