@@ -4,9 +4,10 @@ const koaStatic = require('koa-static');
 const logger = require('koa-logger');
 const path = require('path');
 
-const routes = require('./routes');
+const routes = require('./app');
 const port = process.env.PORT || 3000;
 
+app.use(logger())
 app.use(koaStatic(path.join(__dirname, 'public')))
 app.use(routes);
 
